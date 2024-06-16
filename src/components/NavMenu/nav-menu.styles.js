@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledMenu = styled.ul`
 	position: absolute;
 	width: 100%;
-	padding-inline: 24px;
+	padding-inline: 1.5rem;
 	background-color: #060724;
 	border-bottom: 3px solid gray;
 	transform: ${({ $menu }) => ($menu ? `translateX(0%)` : `translateX(-100%)`)};
@@ -15,22 +15,22 @@ const StyledMenuName = styled.li`
 	display: flex;
 	align-items: center;
 	color: white;
-	height: 70px;
+	height: 4.375rem;
 	font-family: 'Spartan', sans-serif;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	font-weight: bold;
-	padding-left: 45px;
-	border-bottom: 0.5px solid gray;
+	padding-left: 2.8125rem;
+	border-bottom: 0.0313rem solid gray;
 	position: relative;
 
 	&::after {
 		content: '';
-		width: 20px;
-		height: 20px;
+		width: 1.25rem;
+		height: 1.25rem;
 		border-radius: 50%;
 		background-color: ${({ $color }) => $color};
 		position: absolute;
-		left: 0px;
+		left: 0rem;
 	}
 `;
 

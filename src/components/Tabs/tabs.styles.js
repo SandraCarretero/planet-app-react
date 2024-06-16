@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const StyledTabsContainer = styled.div`
-	height: 50px;
+	height: 3.125rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-inline: 24px;
-	border-bottom: 1px solid #979797;
+	padding-inline: 1.5rem;
+	border-bottom: 0.0625rem solid #979797;
 `;
 
 const StyledTab = styled.button`
@@ -17,9 +17,9 @@ const StyledTab = styled.button`
 	background-color: transparent;
 	color: ${({ $marked }) => ($marked ? 'white' : '#979797')};
 	font-family: 'League Spartan', sans-serif;
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 0.0625rem;
 	cursor: pointer;
 `;
 

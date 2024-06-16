@@ -6,39 +6,39 @@ const StyledPlanetContainer = styled.article`
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding-inline: 24px;
+	padding-inline: 1.5rem;
 `;
 
 const StyledPlanetImg = styled.div`
 	width: ${({ $size }) => $size.mobile + 'px'};
-	margin-block: 95px;
+	margin-block: 5.9375rem;
 	position: relative;
 `;
 
 const StyledSurfaceImg = styled.img`
 	transform: scale(0.5);
 	position: absolute;
-	bottom: -90px;
+	bottom: -5.625rem;
 `;
 
 const StyledPlanetTitle = styled.h2`
-	font-size: 40px;
+	font-size: 2.5rem;
 	font-weight: 400;
 	margin: 0;
-	letter-spacing: 1px;
+	letter-spacing: 0.0625rem;
 `;
 
 const StyledPlanetText = styled.p`
 	display: flex;
 	justify-content: center;
-	gap: 3px;
+	gap: 0.1875rem;
 	font-family: 'Spartan', sans-serif;
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: 300;
-	letter-spacing: 1px;
-	line-height: 22px;
-	margin-top: 16px;
-	margin-bottom: 32px;
+	letter-spacing: 0.0625rem;
+	line-height: 1.375rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 	color: lightgray;
 `;
 
