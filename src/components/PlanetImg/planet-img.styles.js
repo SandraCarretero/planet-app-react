@@ -7,6 +7,17 @@ const StyledPlanetContainer = styled.article`
 	align-items: center;
 	text-align: center;
 	padding-inline: 1.5rem;
+
+	@media (min-width: 768px) and (max-width: 1023px) {
+		width: 100%;
+		order: 0;
+	}
+
+	@media (min-width: 1024px) {
+		order: 0;
+		grid-column: 1 / 2;
+		grid-row: 1 / 3;
+	}
 `;
 
 const StyledPlanetImg = styled.div`
@@ -29,31 +40,4 @@ const StyledSurfaceImg = styled.img`
 	bottom: -5.625rem;
 `;
 
-const StyledPlanetTitle = styled.h2`
-	font-size: 2.5rem;
-	font-weight: 400;
-	margin: 0;
-	letter-spacing: 0.0625rem;
-`;
-
-const StyledPlanetText = styled.p`
-	display: flex;
-	justify-content: center;
-	gap: 0.1875rem;
-	font-family: 'Spartan', sans-serif;
-	font-size: 0.75rem;
-	font-weight: 300;
-	letter-spacing: 0.0625rem;
-	line-height: 1.375rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	color: lightgray;
-`;
-
-export {
-	StyledPlanetContainer,
-	StyledPlanetImg,
-	StyledSurfaceImg,
-	StyledPlanetTitle,
-	StyledPlanetText
-};
+export { StyledPlanetContainer, StyledPlanetImg, StyledSurfaceImg };

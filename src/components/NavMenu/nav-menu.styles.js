@@ -9,6 +9,14 @@ const StyledMenu = styled.ul`
 	transform: ${({ $menu }) => ($menu ? `translateX(0%)` : `translateX(-100%)`)};
 	transition: ease-in-out 0.2s;
 	z-index: 999;
+
+	@media (min-width: 768px) {
+		position: relative;
+		transform: translateX(0%);
+		display: flex;
+		justify-content: space-around;
+		border-bottom: 1px solid #979797;
+	}
 `;
 
 const StyledMenuName = styled.li`
@@ -23,6 +31,11 @@ const StyledMenuName = styled.li`
 	border-bottom: 0.0313rem solid gray;
 	position: relative;
 
+	@media (min-width: 768px) {
+		padding-left: 0;
+		border-bottom: 0;
+	}
+
 	&::after {
 		content: '';
 		width: 1.25rem;
@@ -31,6 +44,10 @@ const StyledMenuName = styled.li`
 		background-color: ${({ $color }) => $color};
 		position: absolute;
 		left: 0rem;
+
+		@media (min-width: 768px) {
+			display: none;
+		}
 	}
 `;
 

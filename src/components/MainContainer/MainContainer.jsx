@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import Header from '../Header/Header';
+import Container from '../Container/Container';
 import { StyledMainContainer } from './main-container.sytles';
-import PlanetText from '../PlanetText/PlanetText';
-import PlanetInfo from '../PlanetInfo/PlanetInfo';
 
 const MainContainer = ({ planetData }) => {
 	const [markedTab, setMarkedTab] = useState(0);
@@ -18,12 +17,13 @@ const MainContainer = ({ planetData }) => {
 				setShowMenu={setShowMenu}
 				planetColor={color}
 			/>
-			<PlanetText
+			<Container
 				markedTab={markedTab}
+				setMarkedTab={setMarkedTab}
 				planetData={planetData}
 				planetSize={size}
+				planetColor={color}
 			/>
-			<PlanetInfo planetData={planetData} />
 		</StyledMainContainer>
 	);
 };

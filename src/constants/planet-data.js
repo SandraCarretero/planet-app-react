@@ -17,9 +17,11 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['50.6 DAYS', '87.97 DAYS', '2,439 KM', '430ºC'],
 		size: {
-			mobile: 111
+			mobile: 111,
+			tablet: 184,
+			computer: 290
 		},
-		color: '#DEF4FC'
+		color: '#419EBB'
 	},
 	{
 		path: '/venus',
@@ -39,7 +41,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['243 DAYS', '224.7 DAYS', '6,051.8 KM', '471ºC'],
 		size: {
-			mobile: 154
+			mobile: 154,
+			tablet: 253,
+			computer: 400
 		},
 		color: '#F7CC7F'
 	},
@@ -61,7 +65,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['0.99 DAYS', '365.26 DAYS', '6,371.8 KM', '16ºC'],
 		size: {
-			mobile: 173
+			mobile: 173,
+			tablet: 285,
+			computer: 450
 		},
 		color: '#545BFE'
 	},
@@ -83,7 +89,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['1.03 DAYS', '1.88 YEARS', '3,386.5 KM', '-28ºC'],
 		size: {
-			mobile: 129
+			mobile: 129,
+			tablet: 213,
+			computer: 336
 		},
 		color: '#FF6A45'
 	},
@@ -105,7 +113,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['9.93 HOURS', '11.86 YEARS', '69,911 KM', '-108ºC'],
 		size: {
-			mobile: 224
+			mobile: 224,
+			tablet: 369,
+			computer: 582
 		},
 		color: '#ECAD7A'
 	},
@@ -127,7 +137,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['10.8 HOURS', '29.46 YEARS', '58,232 KM', '-138ºC'],
 		size: {
-			mobile: 256
+			mobile: 256,
+			tablet: 422,
+			computer: 666
 		},
 		color: '#FCCB6B'
 	},
@@ -149,7 +161,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['17.2 HOURS', '84 YEARS', '25,362 KM', '-195ºC'],
 		size: {
-			mobile: 176
+			mobile: 176,
+			tablet: 290,
+			computer: 458
 		},
 		color: '#65F0D5'
 	},
@@ -171,7 +185,9 @@ export const PLANET_DATA = [
 		infoTitle: ['rotation time', 'revolution time', 'radius', 'average temp.'],
 		infoData: ['16.08 HOURS', '164.79 YEARS', '24,622 KM', '-201ºC'],
 		size: {
-			mobile: 173
+			mobile: 173,
+			tablet: 285,
+			computer: 450
 		},
 		color: '#497EFA'
 	}
