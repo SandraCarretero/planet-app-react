@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const StyledMenu = styled.ul`
 	position: absolute;
 	width: 100%;
+	height: 100vh;
 	padding-inline: 24px;
 	background-color: #060724;
 	border-bottom: 3px solid gray;
@@ -11,6 +12,7 @@ const StyledMenu = styled.ul`
 	z-index: 999;
 
 	@media (min-width: 768px) {
+		height: 3.75rem;
 		position: relative;
 		display: flex;
 		transform: translate(0);
@@ -22,6 +24,7 @@ const StyledMenu = styled.ul`
 		position: static;
 		justify-content: end;
 		gap: 32px;
+		border-bottom: none;
 	}
 `;
 
