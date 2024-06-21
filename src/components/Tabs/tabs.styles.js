@@ -54,6 +54,12 @@ const StyledTab = styled.button`
 		letter-spacing: 2px;
 		line-height: 25px;
 		background-color: ${({ $marked, $color }) => ($marked ? $color : 'none')};
+		color: white;
+
+		&:hover {
+			background-color: #d8d8d873;
+			border: none;
+		}
 
 		&::before {
 			content: '0 ' attr(data-index);
