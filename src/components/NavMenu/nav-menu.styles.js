@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledMenu = styled.ul`
 	position: absolute;
 	width: 100%;
-	padding-inline: 1.5rem;
+	padding-inline: 24px;
 	background-color: #060724;
 	border-bottom: 3px solid gray;
 	transform: ${({ $menu }) => ($menu ? `translateX(0%)` : `translateX(-100%)`)};
@@ -12,10 +12,16 @@ const StyledMenu = styled.ul`
 
 	@media (min-width: 768px) {
 		position: relative;
-		transform: translateX(0%);
 		display: flex;
+		transform: translate(0);
 		justify-content: space-around;
-		border-bottom: 1px solid #979797;
+		border-bottom: 0.5px solid gray;
+	}
+
+	@media (min-width: 1280px) {
+		position: static;
+		justify-content: end;
+		gap: 32px;
 	}
 `;
 
@@ -23,31 +29,38 @@ const StyledMenuName = styled.li`
 	display: flex;
 	align-items: center;
 	color: white;
-	height: 4.375rem;
+	height: 70px;
 	font-family: 'Spartan', sans-serif;
-	font-size: 0.9375rem;
 	font-weight: bold;
-	padding-left: 2.8125rem;
-	border-bottom: 0.0313rem solid gray;
+	padding-left: 45px;
+	border-bottom: 0.5px solid gray;
 	position: relative;
-
-	@media (min-width: 768px) {
-		padding-left: 0;
-		border-bottom: 0;
-	}
 
 	&::after {
 		content: '';
-		width: 1.25rem;
-		height: 1.25rem;
+		width: 20px;
+		height: 20px;
 		border-radius: 50%;
 		background-color: ${({ $color }) => $color};
 		position: absolute;
-		left: 0rem;
+		left: 0px;
+	}
 
-		@media (min-width: 768px) {
-			display: none;
+	@media (min-width: 768px) {
+		font-size: 11px;
+		letter-spacing: 1px;
+		line-height: 25px;
+		padding-left: 0;
+		gap: 33px;
+		border-bottom: 0px;
+
+		&::after {
+			width: 0;
 		}
+	}
+
+	@media (min-width: 1280px) {
+		cursor: pointer;
 	}
 `;
 

@@ -18,8 +18,7 @@ export const PLANET_DATA = [
 		infoData: ['50.6 DAYS', '87.97 DAYS', '2,439 KM', '430ºC'],
 		size: {
 			mobile: 111,
-			tablet: 184,
-			computer: 290
+			tablet: 184
 		},
 		color: '#419EBB'
 	},
@@ -42,10 +41,9 @@ export const PLANET_DATA = [
 		infoData: ['243 DAYS', '224.7 DAYS', '6,051.8 KM', '471ºC'],
 		size: {
 			mobile: 154,
-			tablet: 253,
-			computer: 400
+			tablet: 253
 		},
-		color: '#F7CC7F'
+		color: '#EDA249'
 	},
 	{
 		path: '/earth',
@@ -66,8 +64,7 @@ export const PLANET_DATA = [
 		infoData: ['0.99 DAYS', '365.26 DAYS', '6,371.8 KM', '16ºC'],
 		size: {
 			mobile: 173,
-			tablet: 285,
-			computer: 450
+			tablet: 285
 		},
 		color: '#545BFE'
 	},
@@ -90,8 +87,7 @@ export const PLANET_DATA = [
 		infoData: ['1.03 DAYS', '1.88 YEARS', '3,386.5 KM', '-28ºC'],
 		size: {
 			mobile: 129,
-			tablet: 213,
-			computer: 336
+			tablet: 213
 		},
 		color: '#FF6A45'
 	},
@@ -114,8 +110,7 @@ export const PLANET_DATA = [
 		infoData: ['9.93 HOURS', '11.86 YEARS', '69,911 KM', '-108ºC'],
 		size: {
 			mobile: 224,
-			tablet: 369,
-			computer: 582
+			tablet: 369
 		},
 		color: '#ECAD7A'
 	},
@@ -138,8 +133,7 @@ export const PLANET_DATA = [
 		infoData: ['10.8 HOURS', '29.46 YEARS', '58,232 KM', '-138ºC'],
 		size: {
 			mobile: 256,
-			tablet: 422,
-			computer: 666
+			tablet: 442
 		},
 		color: '#FCCB6B'
 	},
@@ -162,8 +156,7 @@ export const PLANET_DATA = [
 		infoData: ['17.2 HOURS', '84 YEARS', '25,362 KM', '-195ºC'],
 		size: {
 			mobile: 176,
-			tablet: 290,
-			computer: 458
+			tablet: 290
 		},
 		color: '#65F0D5'
 	},
@@ -186,8 +179,7 @@ export const PLANET_DATA = [
 		infoData: ['16.08 HOURS', '164.79 YEARS', '24,622 KM', '-201ºC'],
 		size: {
 			mobile: 173,
-			tablet: 285,
-			computer: 450
+			tablet: 285
 		},
 		color: '#497EFA'
 	}
