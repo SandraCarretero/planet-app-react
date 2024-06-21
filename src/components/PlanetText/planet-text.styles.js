@@ -48,7 +48,7 @@ const StyledPlanetTextContainer = styled.div`
 
 	@media (min-width: 1280px) {
 		justify-items: start;
-		height: 100%;
+		height: 540px;
 		width: 350px;
 		transform: translateX(0%);
 		text-align: start;

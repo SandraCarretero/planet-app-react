@@ -10,6 +10,7 @@ const StyledPlanetInfoContainer = styled.section`
 
 	@media (min-width: 768px) {
 		flex-direction: row;
+		padding-bottom: 2.9375rem;
 	}
 
 	@media (min-width: 1280px) {

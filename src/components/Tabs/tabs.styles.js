@@ -47,13 +47,20 @@ const StyledTab = styled.button`
 	@media (min-width: 768px) {
 		width: 100%;
 		height: 40px;
-		border: 1px solid white;
+		border: ${({ $marked }) => ($marked ? 'none' : '1px solid white')};
 		text-align: start;
 		padding-left: 16px;
-		font-size: 9px;
+		font-size: 12px;
 		letter-spacing: 2px;
 		line-height: 25px;
 		background-color: ${({ $marked, $color }) => ($marked ? $color : 'none')};
+
+		&::before {
+			content: '0 ' attr(data-index);
+			color: #ffffff60;
+			padding-right: 1.75rem;
+			letter-spacing: 0rem;
+		}
 	}
 `;
 

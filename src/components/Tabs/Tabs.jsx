@@ -11,6 +11,7 @@ const Tabs = ({ markedTab, setMarkedTab, planetColor }) => {
 					$color={planetColor}
 					key={v4()}
 					onClick={() => setMarkedTab(i)}
+					data-index={i + 1}
 				>
 					{tab.toUpperCase()}
 				</StyledTab>
