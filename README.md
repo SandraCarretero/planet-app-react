@@ -12,7 +12,7 @@ En este proyecto, he creado una aplicación en React donde los usuarios pueden e
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-A través de este proyecto, he aprendido a desarrollar juegos interactivos utilizando HTML, CSS y JavaScript. He mejorado mis habilidades en el diseño de interfaces web, la manipulación del DOM y la implementación de lógica de juego en JavaScript.
+En este proyecto, he aprendido a usar react-router-dom para la navegación entre planetas y a implementar tabs para mostrar contenido específico de cada uno, como "Overview," "Structure," y "Surface".
 
 ## Tecnologías 🛠
 
@@ -24,6 +24,7 @@ A través de este proyecto, he aprendido a desarrollar juegos interactivos utili
 [![ESLINT](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)](https://en.wikipedia.org/wiki/ESLint)
 ![PRETTIER](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![VITE](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+[![REACT](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)](https://es.wikipedia.org/wiki/React)
 
 ## Vista previa del proyecto
 
