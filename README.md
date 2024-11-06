@@ -8,7 +8,7 @@
 ## Descripción 📑
 
 
-En este proyecto, he creado el juego de "Piedra, Papel o Tijera" donde los jugadores compiten contra la computadora. La interfaz es sencilla y atractiva, con botones para elegir la jugada. La lógica del juego, desarrollada en JavaScript, determina el ganador de cada ronda.
+En este proyecto, he creado una aplicación en React donde los usuarios pueden explorar información sobre diferentes planetas. La interfaz presenta un menú con los planetas disponibles, y cada uno ofrece pestañas para ver más detalles.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
