@@ -30,9 +30,9 @@ En este proyecto, he aprendido a usar react-router-dom para la navegación entre
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/rockpaperscissors.png)
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/rockpaperscissors-pages.png)
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/rockpaperscissors-pages2.png)
+![Captura del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planetapp.png)
+![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/planetapp-pages.png)
+![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/planetapp-pages2.png)
 
 ## Autor ✒️
 
