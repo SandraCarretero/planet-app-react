@@ -3,7 +3,7 @@
 
 ## Ejemplo en vivo
 
-  - [https://sandracarretero.github.io/rock-paper-scissors/](https://sandracarretero.github.io/rock-paper-scissors/)
+  - [https://planet-app-react.onrender.com/](https://planet-app-react.onrender.com/)
 
 ## Descripción 📑
 
