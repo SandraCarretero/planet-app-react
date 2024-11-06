@@ -1,5 +1,5 @@
 # PLANET APP REACT
-![Imagen del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/planets_landing.png)
+![Imagen del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planets_landing.png)
 
 ## Ejemplo en vivo
 
