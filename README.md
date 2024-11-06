@@ -1,4 +1,4 @@
-# ROCK PAPER SCISSORS
+# PLANET APP REACT
 ![Imagen del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/screencapture-rockpaperscissors.png)
 
 ## Ejemplo en vivo
