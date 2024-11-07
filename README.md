@@ -32,7 +32,6 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planetapp.png)
 ![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/planetapp-pages.png)
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/planetapp-pages2.png)
 
 ## Autor ✒️
 
